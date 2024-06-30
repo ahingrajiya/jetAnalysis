@@ -4,9 +4,9 @@
  * @brief Header that contains definition of collection wrappers
  * @version 0.1
  * @date 2023-10-19
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
 #ifndef Collections_h
@@ -23,27 +23,23 @@
 #include <vector>
 
 // Analysis collection
-typedef std::vector<BaseAnalysis*> AnalysisCollection;
-typedef std::vector<BaseAnalysis*>::iterator AnalysisIterator;
+typedef std::vector<BaseAnalysis *> AnalysisCollection;
+typedef std::vector<BaseAnalysis *>::iterator AnalysisIterator;
 
 // Particle flow jet collection
-typedef std::vector<RecoJet*> PartFlowJetCollection;
-typedef std::vector<RecoJet*>::iterator PartFlowJetIterator;
-
-// Calorimeter jet collection
-typedef std::vector<RecoJet*> CaloJetCollection;
-typedef std::vector<RecoJet*>::iterator CaloJetIterator;
+typedef std::vector<RecoJet *> RecoJetCollection;
+typedef std::vector<RecoJet *>::iterator RecoJetIterator;
 
 // Generated jet collection
-typedef std::vector<GenJet*> GenJetCollection;
-typedef std::vector<GenJet*>::iterator GenJetIterator;
+typedef std::vector<GenJet *> GenJetCollection;
+typedef std::vector<GenJet *>::iterator GenJetIterator;
 
 // Reconstructed track collection
-typedef std::vector<Track*> TrackCollection;
-typedef std::vector<Track*>::iterator TrackIterator;
+typedef std::vector<Track *> TrackCollection;
+typedef std::vector<Track *>::iterator TrackIterator;
 
 // Generated track collection
-typedef std::vector<GenTrack*> GenTrackCollection;
-typedef std::vector<GenTrack*>::iterator GenTrackIterator;
+typedef std::vector<GenTrack *> GenTrackCollection;
+typedef std::vector<GenTrack *>::iterator GenTrackIterator;
 
 #endif // #define Collections_h
